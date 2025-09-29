@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MovieTracker}",
+            "name": "Debug MovieTracker",
+            "program": "${workspaceFolder:MovieTracker}/.build/debug/MovieTracker",
+            "preLaunchTask": "swift: Build Debug MovieTracker"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MovieTracker}",
+            "name": "Release MovieTracker",
+            "program": "${workspaceFolder:MovieTracker}/.build/release/MovieTracker",
+            "preLaunchTask": "swift: Build Release MovieTracker"
+        }
+    ]
+}
