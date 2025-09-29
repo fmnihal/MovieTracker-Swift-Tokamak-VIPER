@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MovieTracker",
     dependencies: [
-        .package(url: "https://github.com/TokamakUI/Tokamak.git", from: "0.13.0")
+        .package(url: "https://github.com/TokamakUI/Tokamak.git", from: "0.12.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
